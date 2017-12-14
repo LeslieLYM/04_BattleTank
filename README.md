@@ -13,3 +13,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT09 Create Camera & Spring Arm component in Tank_BP, 
     Input Binding of Camera Amizuth & Elevation (Mouse & Gamepad),
     Setup Input Event Graph in Tank_BP, Bind by AddLocalRotation to SpringArm
+* BT10 Add Scene Component to separate Camera Amizuth & Elevation, Uncheck Spring Arm Inheret Roll to remain horizontal level in inclined terrains
