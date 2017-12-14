@@ -20,3 +20,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT14 Start Button (OnClick) to main game, 
     Initialize start for UI only input mode for different Controls,
     Quit Key (works similar to Start)
+* BT15 Change Input Mode to Game Only after start game (MainMenuUI BP)
