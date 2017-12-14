@@ -24,3 +24,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT16 Create Tank class for Tank BP (Pawn) referencing, Create TankPlayerController class for TankPlayerController BP referencing
 * BT17 BeginPlay() override from Actor class in TankPlayerController class,
     Check if Pawn (Tank) is possessed & Log Out result 
+* BT18 Create TankAIController class, Check if Pawns (Tank) are possessed & Log Out result 

@@ -8,9 +8,9 @@ void ATankPlayerController::BeginPlay() {
     auto ControlledTank = GetControlledTank();
     
     if (!ControlledTank) {
-        UE_LOG(LogTemp, Warning, TEXT("%s is missing pawn"), *GetOwner()->GetName())
+        UE_LOG(LogTemp, Warning, TEXT("Player Controller is missing pawn"))
     } else {
-        UE_LOG(LogTemp, Warning, TEXT("Pawn Possessed : %s"), *ControlledTank->GetName())
+        UE_LOG(LogTemp, Warning, TEXT("Player Controller Possessed : %s"), *ControlledTank->GetName())
     }
 }
 
