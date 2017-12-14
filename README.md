@@ -22,3 +22,5 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
     Quit Key (works similar to Start)
 * BT15 Change Input Mode to Game Only after start game (MainMenuUI BP)
 * BT16 Create Tank class for Tank BP (Pawn) referencing, Create TankPlayerController class for TankPlayerController BP referencing
+* BT17 BeginPlay() override from Actor class in TankPlayerController class,
+    Check if Pawn (Tank) is possessed & Log Out result 
