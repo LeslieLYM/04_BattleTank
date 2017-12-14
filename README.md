@@ -17,3 +17,6 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT11 Create PlayerUI Widget, Add AimPoint, Create TankPlayerController BP, connect Player UI
 * BT12 New Level for Main Menu, Create MainMenuUI Widget, Level BP connects MainMenu UI, Menu Background Image 
 * BT13 Activate Cursor at start, Add Title & Button in Main Menu
+* BT14 Start Button (OnClick) to main game, 
+    Initialize start for UI only input mode for different Controls,
+    Quit Key (works similar to Start)
