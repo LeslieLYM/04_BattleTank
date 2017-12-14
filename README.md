@@ -21,3 +21,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
     Initialize start for UI only input mode for different Controls,
     Quit Key (works similar to Start)
 * BT15 Change Input Mode to Game Only after start game (MainMenuUI BP)
+* BT16 Create Tank class for Tank BP (Pawn) referencing, Create TankPlayerController class for TankPlayerController BP referencing
