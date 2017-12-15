@@ -26,3 +26,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
     Check if Pawn (Tank) is possessed & Log Out result 
 * BT18 Create TankAIController class, Check if Pawns (Tank) are possessed & Log Out result 
 * BT19 AI Controller finds Player Tank, Pointer Protections 
+* BT20 Player Controller add Tick, ready for Aim towards crosshair (Player Targeting) 
