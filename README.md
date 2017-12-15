@@ -27,3 +27,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT18 Create TankAIController class, Check if Pawns (Tank) are possessed & Log Out result 
 * BT19 AI Controller finds Player Tank, Pointer Protections 
 * BT20 Player Controller add Tick, ready for Aim towards crosshair (Player Targeting) 
+* BT21 Create RayTrace method in PlayerController to return whether Hit lanscape, HitLocation will be out parameter 
