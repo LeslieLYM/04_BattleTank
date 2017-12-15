@@ -28,3 +28,5 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT19 AI Controller finds Player Tank, Pointer Protections 
 * BT20 Player Controller add Tick, ready for Aim towards crosshair (Player Targeting) 
 * BT21 Create RayTrace method in PlayerController to return whether Hit lanscape, HitLocation will be out parameter 
+* BT22 Find Crosshair Position in pixel coordinate in GetSideRayHitLocation (RayTrace method)
+* BT23 Deproject Screen Position of Crosshair to World Direction (Unit Vector), Refractor the part to new method
