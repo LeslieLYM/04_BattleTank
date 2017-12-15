@@ -30,3 +30,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT21 Create RayTrace method in PlayerController to return whether Hit lanscape, HitLocation will be out parameter 
 * BT22 Find Crosshair Position in pixel coordinate in GetSideRayHitLocation (RayTrace method)
 * BT23 Deproject Screen Position of Crosshair to World Direction (Unit Vector), Refractor the part to new method
+* BT24 Line Trace by Channel to return the Hit Location in the world. (Can use GetHitResultAtScreenPosition())

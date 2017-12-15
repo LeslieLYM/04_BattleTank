@@ -20,17 +20,21 @@ private:
     
     virtual void Tick(float DeltaTime) override;
     
-    //Getter
+    UPROPERTY(EditAnywhere)
+    float CrosshairXLocation = 0.5f; //50% left of screen
+    UPROPERTY(EditAnywhere)
+    float CrosshairYLocation = 0.3f; //30% down of screen
+    UPROPERTY(EditAnywhere)
+    float LineTraceRange = 1000000;
+    
     ATank* GetControlledTank() const;
     //Start tank moving barrel so shot hit at intersection of crosshair & world
     void AimTowardsCrosshair();
     //Return an OUT parameter Hit Location, true if hit landscape
     bool GetSideRayHitLocation(FVector& OutHitLocation) const;
     
-    UPROPERTY(EditAnywhere)
-    float CrosshairXLocation = 0.5f; //50% left of screen
-    UPROPERTY(EditAnywhere)
-    float CrosshairYLocation = 0.3f; //30% down of screen
-    
     bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
+    bool GetLookVectorHitLocation(FVector LookDirection, FVector& OutHitLocation) const;
+    
+    
 };
