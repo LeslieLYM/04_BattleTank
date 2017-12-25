@@ -34,3 +34,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT25 Unify Aiming of player & AI by adding AimAt() in Pawn, Create AimAtComponent in Pawn through C++ so Pawn AimAt calls the Componenet to perform AimAt funciton
 * BT26 GetBarrelReference Location (shoot begin location), BlueprintCallable in Tank.cpp (Pawn), Function in Aiming Component 
 * BT27 Add Launch Speech in Tank.cpp (Pawn) & ready for SuggestProjectileVelocity()
+* BT28 SuggestProjectileVelocity(), Return AimDirection for launching bullets
