@@ -13,7 +13,7 @@ UTankAimingComponent::UTankAimingComponent()
 	// ...
 }
 
-void UTankAimingComponent::SetBarrelReference(UStaticMeshComponent* BarrelToSet) {
+void UTankAimingComponent::SetBarrelReference(UTankBarrel* BarrelToSet) {
     Barrel = BarrelToSet;
 }
 
@@ -21,7 +21,6 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed) {
     if (!Barrel) {
         return;
     }
-    
     FVector OutLaunchVelocity = FVector(0);
     FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
     bool bHaveAimSolution = UGameplayStatics::SuggestProjectileVelocity(this, //STATIC function
@@ -36,7 +35,7 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed) {
     if (bHaveAimSolution) {
         //To Unit Vector
         auto AimDirection = OutLaunchVelocity.GetSafeNormal();
-        UE_LOG(LogTemp, Warning, TEXT("Aiming at %s"), *AimDirection.ToString())
+        
         
         MoveBarrelTowards(AimDirection);
     }
@@ -48,9 +47,7 @@ void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection) {
     auto BarrelRotator = Barrel->GetForwardVector().Rotation();
     auto AimAsRotator = AimDirection.Rotation();
     auto DeltaRotator = AimAsRotator - BarrelRotator;
-    //Move barrel right amount of rotation this frame
-    //Give Max elevation speed & frame time
-    //Turn location to rotation, reference to the center of the barrel/ turrent
-    //Set the rotation of the barrel/ turrent, lerping?
+    
+    Barrel->Elevate(5.f); //TODO: remove magic number
 }
 
