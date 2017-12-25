@@ -35,3 +35,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT26 GetBarrelReference Location (shoot begin location), BlueprintCallable in Tank.cpp (Pawn), Function in Aiming Component 
 * BT27 Add Launch Speech in Tank.cpp (Pawn) & ready for SuggestProjectileVelocity()
 * BT28 SuggestProjectileVelocity(), Return AimDirection for launching bullets
+* BT29 Create MoveBarrel() in TankAimingComponent, Get Current Barrel Rotation, AimDirection, DeltaRotation
