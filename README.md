@@ -31,3 +31,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT22 Find Crosshair Position in pixel coordinate in GetSideRayHitLocation (RayTrace method)
 * BT23 Deproject Screen Position of Crosshair to World Direction (Unit Vector), Refractor the part to new method
 * BT24 Line Trace by Channel to return the Hit Location in the world. (Can use GetHitResultAtScreenPosition())
+* BT25 Unify Aiming of player & AI by adding AimAt() in Pawn, Create AimAtComponent in Pawn through C++ so Pawn AimAt calls the Componenet to perform AimAt funciton
