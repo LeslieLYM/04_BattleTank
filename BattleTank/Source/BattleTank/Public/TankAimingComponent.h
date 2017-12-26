@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "TankBarrel.h"
+
 #include "TankAimingComponent.generated.h"
 
 class UTankBarrel; //Forward Declaration

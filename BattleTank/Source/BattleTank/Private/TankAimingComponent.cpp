@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "TankAimingComponent.h"
+#include "TankBarrel.h"
 
 
 // Sets default values for this component's properties
@@ -28,6 +29,9 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed) {
                                                                         StartLocation,
                                                                         HitLocation,
                                                                         LaunchSpeed,
+                                                                        false,
+                                                                        0,
+                                                                        0,
                                                                         ESuggestProjVelocityTraceOption::DoNotTrace
                                                                         );
     
@@ -36,8 +40,12 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed) {
         //To Unit Vector
         auto AimDirection = OutLaunchVelocity.GetSafeNormal();
         
-        
+        auto Time = GetWorld()->GetTimeSeconds();
+        UE_LOG(LogTemp, Warning, TEXT("%f Aim Found"), Time)
         MoveBarrelTowards(AimDirection);
+    } else {
+        auto Time = GetWorld()->GetTimeSeconds();
+        UE_LOG(LogTemp, Warning, TEXT("%f Not Aim Found"), Time)
     }
     //Do nothing if no solution
 }
