@@ -41,3 +41,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
     Make TankBarrel Blueprint Spawnable, 
     Create private variables for moving Barrel
 * BT31 (L141, L142) (v4.16.3) Forward Declarations for all classes, Bug fixed for SuggestProjectileVelocity()
+* BT32 (L143) (v4.16.3) Elevate Barrel with clamped values
