@@ -42,7 +42,8 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
     Create private variables for moving Barrel
 * BT31 (L141, L142) (v4.16.3) Forward Declarations for all classes, Bug fixed for SuggestProjectileVelocity()
 * BT32 (L143) (v4.16.3) Elevate Barrel with clamped values
-* BT32 (L144, L145) (v4.16.3) Create custom Static Mesh Component class TankTurrent, 
+* BT33 (L144, L145) (v4.16.3) Create custom Static Mesh Component class TankTurrent, 
     Forward Declaration in TankAimingComponent.h, 
     Make TankTurrent Blueprint Spawnable, 
     Rotate Turrent
+* BT34 (L146) (v4.16.3) Create Fire() in Tank.cpp (Pawn), Create Projectile class & BP
