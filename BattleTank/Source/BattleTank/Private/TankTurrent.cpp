@@ -17,7 +17,7 @@ void UTankTurrent::Rotate (float RelativeSpeed){
 //        RawNewRotation += 180.f;
 //    }
 //    UE_LOG(LogTemp, Warning, TEXT("NewRotation : %f"), Rotation)
-//    SetRelativeRotation(FRotator(0, Rotation, 0));
+    SetRelativeRotation(FRotator(0, Rotation, 0));
 }
 
 
