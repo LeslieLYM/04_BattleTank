@@ -18,11 +18,11 @@ private:
     
     virtual void Tick(float DeltaTime) override;
     
-    UPROPERTY(EditAnywhere)
+    UPROPERTY(EditDefaultsOnly)
     float CrosshairXLocation = 0.5f; //50% left of screen
-    UPROPERTY(EditAnywhere)
+    UPROPERTY(EditDefaultsOnly)
     float CrosshairYLocation = 0.3f; //30% down of screen
-    UPROPERTY(EditAnywhere)
+    UPROPERTY(EditDefaultsOnly)
     float LineTraceRange = 1000000;
     
     ATank* GetControlledTank() const;

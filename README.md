@@ -49,3 +49,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT34 (L146) (v4.16.3) Create Fire() in Tank.cpp (Pawn), Create Projectile class & BP
 * BT35 (L150, L151) (v4.16.3) Spawn Actor Projectile BP in scene, Launch Projectiles with SetVelocityInLocalSpace() with Launch Speed
 * BT36 (L152) (v4.16.3) AI Tanks call Fire(), Set Reload Time for Shooting
+* BT37 (L153) (v4.16.3) Change appropriate properties from EditAnywhere to EditDefaultsOnly
