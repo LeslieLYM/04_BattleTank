@@ -50,3 +50,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT35 (L150, L151) (v4.16.3) Spawn Actor Projectile BP in scene, Launch Projectiles with SetVelocityInLocalSpace() with Launch Speed
 * BT36 (L152) (v4.16.3) AI Tanks call Fire(), Set Reload Time for Shooting
 * BT37 (L153) (v4.16.3) Change appropriate properties from EditAnywhere to EditDefaultsOnly
+* BT38 (L154,L155) (v4.16.3) Add Quit Button in Main Menu Widget, Create custom Static Mesh Component class TankTrack, Make TankTrack Blueprint Spawnable, SetThrottle by Getting axis value from Input
