@@ -51,3 +51,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT36 (L152) (v4.16.3) AI Tanks call Fire(), Set Reload Time for Shooting
 * BT37 (L153) (v4.16.3) Change appropriate properties from EditAnywhere to EditDefaultsOnly
 * BT38 (L154,L155) (v4.16.3) Add Quit Button in Main Menu Widget, Create custom Static Mesh Component class TankTrack, Make TankTrack Blueprint Spawnable, SetThrottle by Getting axis value from Input
+* BT39 (L156) (v4.16.3) GetRootComponent of Tank & Cast as Primitive Component for Applying Force At Location
