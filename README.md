@@ -53,3 +53,4 @@ Open World Head-to-Head Tank Fight, Simple AI, Terrain, Advance Control System, 
 * BT38 (L154,L155) (v4.16.3) Add Quit Button in Main Menu Widget, Create custom Static Mesh Component class TankTrack, Make TankTrack Blueprint Spawnable, SetThrottle by Getting axis value from Input
 * BT39 (L156) (v4.16.3) GetRootComponent of Tank & Cast as Primitive Component for Applying Force At Location
 * BT40 (L157, L158) (v4.16.3) Fix Collision Boxes for movable tanks under appropriate speed, Create custom Nav Movement Component class TankMovementComponent ready for Fly-by-wire movements
+* BT41 (L159) (v4.16.3) Forward Declaration TankMovementComponent in Tank.h, Make it BlueprintReadOnly & BlueprintCallable Function
